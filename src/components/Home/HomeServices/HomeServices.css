@@ -1,0 +1,22 @@
+.home-services {
+  padding: 86px 0;
+}
+.home-services-titles h1 {
+  font-weight: 600;
+  color: #002345;
+  line-height: 60px;
+}
+.home-services-titles span {
+  font-weight: 300;
+}
+
+.home-services-titles .default-title {
+  width: 36%;
+  text-align: center;
+  background: transparent;
+}
+
+.home-services-btn {
+  width: 60%;
+  padding: 15px 30px;
+}
