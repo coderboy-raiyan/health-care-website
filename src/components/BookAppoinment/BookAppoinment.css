@@ -1,0 +1,70 @@
+.appointment-titles {
+  background: #f7fafb;
+  height: 100%;
+  min-height: 646px;
+}
+
+.appointment-titles .appointment-card {
+  background: #fff;
+  border: none;
+  padding: 10px;
+}
+.main-appointment .banner-services h1 {
+  font-size: 40px;
+}
+.appointment-card .appointment-des {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.appointment-titles .contact-title {
+  width: 18%;
+}
+
+.appointment-titles .appointment-card .contact-icon {
+  background: #1dbfcc;
+  color: #fff;
+  width: 31%;
+}
+.appointment-des h4 {
+  padding: 10px 0;
+  color: #333;
+  font-size: 20px;
+}
+.appointment-card p {
+  width: 100%;
+  font-size: 14px;
+}
+
+.appointment-form {
+  width: 100%;
+  height: 100%;
+  min-height: 680px;
+  background: url("https://i.ibb.co/fGYvh7N/appointment-bg-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.form-inner {
+  background: #fff;
+  width: 100%;
+  min-height: 118px;
+  margin: 8px 0;
+  padding: 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.form-inner h4 {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.form-inner input {
+  padding: 18px;
+  margin-bottom: 16px;
+}
