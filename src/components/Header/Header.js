@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
-
+import { NavHashLink } from "react-router-hash-link";
 const Header = () => {
   return (
     <Navbar bg="white" className="shadow-sm" expand="lg">
@@ -24,6 +24,11 @@ const Header = () => {
               <Link className="nav-link " to="/home">
                 Home
               </Link>
+            </li>
+            <li className="nav-item me-3">
+              <NavHashLink smooth className="nav-link " to="/home#about">
+                About
+              </NavHashLink>
             </li>
             <li className="nav-item me-3">
               <Link className="nav-link " to="/services">
