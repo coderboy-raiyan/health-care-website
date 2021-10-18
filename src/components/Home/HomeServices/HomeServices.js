@@ -28,6 +28,7 @@ const HomeServices = () => {
                 whileTap={{ scale: 1.1 }}
                 whileHover={{ scale: 1.2 }}
                 className="d-block ms-auto home-services-btn"
+                onClick={() => window.scrollTo(0, 0)}
               >
                 Vew all Services
               </motion.button>

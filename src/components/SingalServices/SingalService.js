@@ -14,7 +14,7 @@ const SingalService = ({ service }) => {
 
   return (
     <Col xs={12} md={4} lg={4}>
-      <Card className="h-100 main-card text-center">
+      <Card className="h-100 main-card text-center ">
         <div className="card-img">
           <Card.Img variant="top" src={img} />
         </div>
