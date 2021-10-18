@@ -4,9 +4,11 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home/Home";
+import Login from "./components/Login/Login";
 import NotFound from "./components/NotFound/NotFound";
 import ServiceDetails from "./components/ServiceDetails/ServiceDetails";
 import Services from "./components/Services/Services";
+import Signup from "./components/Signup/Signup";
 import AuthProvider from "./context/AuthProvider";
 import ServicesProvider from "./context/ServicesProvider";
 
@@ -25,6 +27,12 @@ const App = () => {
             </Route>
             <Route path="/services">
               <Services></Services>
+            </Route>
+            <Route path="/login">
+              <Login></Login>
+            </Route>
+            <Route path="/signup">
+              <Signup></Signup>
             </Route>
             <Route path="/service/:serviceId">
               <ServiceDetails></ServiceDetails>

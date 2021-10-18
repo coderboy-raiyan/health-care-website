@@ -29,6 +29,7 @@
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
+  position: relative;
 }
 .card-des {
   color: #486683;
@@ -37,8 +38,9 @@
 }
 .card-title {
   font-size: 23px;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 20px;
+  color: #333;
 }
 .card-btn {
   border-radius: 35px;
@@ -48,4 +50,19 @@
   padding: 10px 40px;
   -o-border-radius: 35px;
   margin: 20px 0;
+}
+.card-icon {
+  position: absolute;
+  background: #fff;
+  font-size: 24px;
+  top: 235px;
+  padding: 12px 20px;
+  right: 29px;
+  color: #4ab1db;
+  border-radius: 64%;
+  transition: all 0.3s;
+}
+.main-card:hover .card-icon {
+  background: #4ab1db;
+  color: #fff;
 }
