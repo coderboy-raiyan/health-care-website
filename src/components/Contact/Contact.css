@@ -1,0 +1,85 @@
+.main-contact .banner-services {
+  align-items: flex-start;
+}
+.main-contact .banner-services a {
+  font-size: 20px;
+}
+.contact-inner {
+  background: #f7fafb;
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  padding: 90px 0;
+}
+.contact-title {
+  margin: auto;
+  width: 22%;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #fff;
+}
+.contact-inner P {
+  color: #fff;
+  margin-top: 20px;
+  line-height: 30px;
+}
+.contact-des h1 {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 55px;
+  margin-bottom: 80px;
+}
+.contact-des h1 span {
+  font-weight: 600;
+}
+.contact-card {
+  background: #1dbfcc;
+}
+.contact-card .contact-icon {
+  background: #fff;
+  width: 26%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 30px;
+  color: #1dbfcc;
+  -webkit-border-radius: 48px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.contact-des {
+  font-size: 18px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+/* Contact from css */
+.main-contact-form {
+  width: 100%;
+  height: 100%;
+  min-height: 600px;
+  padding: 70px 0;
+}
+.main-contact-form .contact-title {
+  width: 16%;
+}
+.main-contact-form input {
+  background: #f7fafb;
+  border: 1.5px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.contact-text {
+  background: #f7fafb;
+  margin-top: 10px;
+}
+input::placeholder {
+  font-size: 15px;
+  color: #333;
+}

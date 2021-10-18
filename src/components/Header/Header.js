@@ -35,6 +35,16 @@ const Header = () => {
                 Services
               </Link>
             </li>
+            <li className="nav-item me-3">
+              <Link className="nav-link " to="/contact">
+                Contact
+              </Link>
+            </li>
+            <li className="nav-item me-3">
+              <Link className="nav-link " to="/bookappoinment">
+                Book Appointment
+              </Link>
+            </li>
             <li className="nav-item">
               <Link className="nav-link " to="/login">
                 <motion.button
