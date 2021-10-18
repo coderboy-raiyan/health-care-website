@@ -2,71 +2,111 @@
   {
     "id": 1,
     "title": "Teeth Cleaning",
-    "des": "The benefits of a dental prophylaxis:Tartar removal: Tartar (calculus) and plaque buildup, both above and below the gum line, can cause serious periodontal problems if left untreated. Even using the best brushing and flossing homecare techniques, it can be impossible to remove debris, bacteria and deposits from gum pockets. The experienced eye of a dentist using specialized dental equipment is needed in order to spot and treat problems such as tartar and plaque buildup.Aesthetics: It’s hard to feel confident about a smile with yellowing, stained teeth. Prophylaxis can help rid th eteeth of unsightly stains and help brighten your smile.Fresher breath: Periodontal disease is often signified by persistent bad breath (halitosis). Bad breath is generally caused by a combination of rotting food particles below the gum line,",
+    "des": "Most teeth cleanings are performed by a dental hygienist. Before the actual cleaninprocess begins, they start with a physical exam of your entire mouth.The dental hygienist uses a small mirror to check around your teeth and gums for any signs of gingivitis (inflamed gums) or other potential concerns.If they detect major problems, the dental hygienist might call the dentist to make sure it’s fine to proceed.",
     "img": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/09/experience-dentist-550x500.jpg",
-    "img2": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/09/services-details-2.jpg"
+    "img2": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/09/services-details-2.jpg",
+    "doctor_img": "https://img-c.udemycdn.com/user/75x75/7799204_2091_5.jpg",
+    "doctor_name": "Jonas Schmedtmann",
+    "review": 4.5,
+    "deg": "Teeth specialist"
   },
   {
     "id": 2,
     "title": "Teeth Whitening",
-    "des": "The benefits of a dental prophylaxis:Tartar removal: Tartar (calculus) and plaque buildup, both above and below the gum line, can cause serious periodontal problems if left untreated. Even using the best brushing and flossing homecare techniques, it can be impossible to remove debris, bacteria and deposits from gum pockets. The experienced eye of a dentist using specialized dental equipment is needed in order to spot and treat problems such as tartar and plaque buildup.Aesthetics: It’s hard to feel confident about a smile with yellowing, stained teeth. Prophylaxis can help rid th eteeth of unsightly stains and help brighten your smile.Fresher breath: Periodontal disease is often signified by persistent bad breath (halitosis). Bad breath is generally caused by a combination of rotting food particles below the gum line,",
+    "des": "Tooth whitening is defined as any process that will make teeth appear whiter. There are two ways this is commonly done: bleaching and non-bleaching whitening products. Often the terms bleaching and whitening are used interchangeably, but the U.S. Food and Drug Administration (FDA) states the term bleaching can only be used when a product contains bleach. A product is considered simply whitening when it removes food or debris from the teeth without bleach.Bleaching products contain peroxide (hydrogen peroxide or carbamide peroxide) and these products remove both surface and deep stains on teeth and can cause teeth to become even lighter than their natural shade.",
     "img": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/07/ser_5-550x500.jpg",
-    "img2": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/09/services-details-2.jpg"
+    "img2": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/09/services-details-2.jpg",
+    "doctor_img": "https://img-c.udemycdn.com/user/75x75/8912846_1a61.jpg",
+    "doctor_name": "Joseph Phillips",
+    "review": 4.6,
+    "deg": "Teeth and mouth specialist"
   },
   {
     "id": 3,
     "title": "Orthodontics",
-    "des": "The benefits of a dental prophylaxis:Tartar removal: Tartar (calculus) and plaque buildup, both above and below the gum line, can cause serious periodontal problems if left untreated. Even using the best brushing and flossing homecare techniques, it can be impossible to remove debris, bacteria and deposits from gum pockets. The experienced eye of a dentist using specialized dental equipment is needed in order to spot and treat problems such as tartar and plaque buildup.Aesthetics: It’s hard to feel confident about a smile with yellowing, stained teeth. Prophylaxis can help rid th eteeth of unsightly stains and help brighten your smile.Fresher breath: Periodontal disease is often signified by persistent bad breath (halitosis). Bad breath is generally caused by a combination of rotting food particles below the gum line,",
+    "des": "Orthodontics is a special field of dentistry that focuses on the prevention and correction of malpositioned teeth and jaws. While a general dentist focuses primarily on cavities and gum disease, orthodontists promote healthy teeth by targeting issues like improper jaw alignment, crooked teeth, and crowded teeth. But creating a beautiful, straight smile isn’t all that orthodontists do. By treating some of the underlying orthodontic problems that lead to tooth decay and tooth loss, orthodontists also help their patients maintain healthy teeth and gums.Orthodontic appliances like braces work by slowly and constantly moving teeth into position until they are properly aligned and placed. Braces can be made of metal, ceramic, or plastic, and some are practically invisible. Getting braces isn’t just about having a beautiful smile, however. In some cases, seeing an orthodontist for preventative diagnosis and care can help prevent more costly dental procedures later.",
     "img": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/07/ser_4-550x500.jpg",
-    "img2": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/09/services-details-2.jpg"
+    "img2": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/09/services-details-2.jpg",
+    "doctor_img": "https://img-c.udemycdn.com/user/75x75/9685726_67e7_4.jpg",
+    "doctor_name": "Jose Portilla",
+    "review": 4.1,
+    "deg": "Teeth and Cello specialist"
   },
   {
     "id": 4,
     "title": "Dental Implants",
-    "des": "The benefits of a dental prophylaxis:Tartar removal: Tartar (calculus) and plaque buildup, both above and below the gum line, can cause serious periodontal problems if left untreated. Even using the best brushing and flossing homecare techniques, it can be impossible to remove debris, bacteria and deposits from gum pockets. The experienced eye of a dentist using specialized dental equipment is needed in order to spot and treat problems such as tartar and plaque buildup.Aesthetics: It’s hard to feel confident about a smile with yellowing, stained teeth. Prophylaxis can help rid th eteeth of unsightly stains and help brighten your smile.Fresher breath: Periodontal disease is often signified by persistent bad breath (halitosis). Bad breath is generally caused by a combination of rotting food particles below the gum line,",
+    "des": "Dental implants are artificial tooth roots that provide a permanent base for fixed, replacement teeth. Compared to dentures, bridges and crowns, dental implants are a popular and effective long-term solution for people who suffer from missing teeth, failing teeth or chronic dental problems. Because they fit, feel and function like natural teeth, dental implants are quickly becoming a new standard in tooth replacement.What makes dental implants feel completely comfortable and secure? Doctors use a titanium implant fixture that, over time, actually fuses to the living bone cells of the jaw. This union forms a strong and durable anchor for your new teeth, meaning there’s no slippage or other movement (which can sometimes happen with dentures). There are also no problems eating with dental implants, no need to repair them regularly and no more worrying about smiling freely and openly.",
     "img": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/09/patient-care-550x500.jpg",
-    "img2": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/09/services-details-2.jpg"
+    "img2": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/09/services-details-2.jpg",
+    "doctor_img": "https://img-c.udemycdn.com/user/75x75/2364054_83cd_5.jpg",
+    "doctor_name": "Kirill Eremenko",
+    "review": 3.1,
+    "deg": "Teeth and Und specialist"
   },
   {
     "id": 5,
     "title": "Cosmetic Dentistry",
-    "des": "The benefits of a dental prophylaxis:Tartar removal: Tartar (calculus) and plaque buildup, both above and below the gum line, can cause serious periodontal problems if left untreated. Even using the best brushing and flossing homecare techniques, it can be impossible to remove debris, bacteria and deposits from gum pockets. The experienced eye of a dentist using specialized dental equipment is needed in order to spot and treat problems such as tartar and plaque buildup.Aesthetics: It’s hard to feel confident about a smile with yellowing, stained teeth. Prophylaxis can help rid th eteeth of unsightly stains and help brighten your smile.Fresher breath: Periodontal disease is often signified by persistent bad breath (halitosis). Bad breath is generally caused by a combination of rotting food particles below the gum line,",
+    "des": "The American Academy of Cosmetic Dentistry (AACD) is the largest international dental organization in the world, composed of general dentists, specialists, and lab technicians focused on the art and science of cosmetic dentistry. Founded in 1984, the AACD has over 7,000 members in the United States and more than 70 countries around the globe. Members of the Academy include dentists, dental laboratory technicians, educators, researchers, students, hygienists, corporations and dental auxiliaries. AACD members seek out continuing education through lectures, workshops, and publications in order to keep up-to-date with all of the advancements in cosmetic dental techniques and technology. In 1984, the AACD was formed and has filled the dire need for credentialing in cosmetic dentistry. The purpose of the American Board of Cosmetic Dentistry (ABCD) is the testing, analyzing, and evaluation of the services of dentists and laboratory technicians for the purpose of awarding AACD Accreditation in cosmetic dentistry.[26] However, this certification is not approved or recognized by the American Dental Association.American Society For Dental Aesthetics: Conceived in 1976, the American Society for Dental Aesthetics was developed with a single purpose in mind: continuing dental education to teach dental health professionals the most advanced aesthetic and restorative techniques available. To become a member of the ASDA, a dentist must show a minimum of five years in dental practice, or postgraduate training of two years in an approved program; attendance to at least two ASDA sponsored continuing dental education seminars; nomination by a member accompanied by two letters of recommendation by Society members; presentation of five (5) cases illustrating the concepts of aesthetic dentistry.[27]",
     "img": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/07/ser_2-550x500.jpg",
-    "img2": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/09/services-details-2.jpg"
+    "img2": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/09/services-details-2.jpg",
+    "doctor_img": "https://img-c.udemycdn.com/user/75x75/14088122_79ac_2.jpg",
+    "doctor_name": "Leila Gharani",
+    "review": 4.1,
+    "deg": "Teeth and GS specialist"
   },
   {
     "id": 6,
     "title": "General Dentistry",
-    "des": "The benefits of a dental prophylaxis:Tartar removal: Tartar (calculus) and plaque buildup, both above and below the gum line, can cause serious periodontal problems if left untreated. Even using the best brushing and flossing homecare techniques, it can be impossible to remove debris, bacteria and deposits from gum pockets. The experienced eye of a dentist using specialized dental equipment is needed in order to spot and treat problems such as tartar and plaque buildup.Aesthetics: It’s hard to feel confident about a smile with yellowing, stained teeth. Prophylaxis can help rid th eteeth of unsightly stains and help brighten your smile.Fresher breath: Periodontal disease is often signified by persistent bad breath (halitosis). Bad breath is generally caused by a combination of rotting food particles below the gum line,",
+    "des": "A general dentist is your primary care dental provider. This dentist diagnoses, treats, and manages your overall oral health care needs, including gum care, root canals, fillings, crowns, veneers, bridges, and preventive education.All practicing general dentists have earned either a DDS or DMD degree (doctor of dental surgery or doctor of dental medicine, respectively). There is no difference between the two degrees or the curriculum requirements that dentists must meet. Some schools simply award the one degree, while others award the other.Generally, three or more years of undergraduate education plus four years of dental school is required to become a general dentist. Additional post-graduate training is required to become a dental specialist.",
     "img": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/07/ser_1-550x500.jpg",
-    "img2": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/09/services-details-2.jpg"
+    "img2": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/09/services-details-2.jpg",
+    "doctor_img": "https://img-c.udemycdn.com/user/75x75/289469_b879_5.jpg",
+    "doctor_name": "Srikanth Shirodkar",
+    "review": 4.3,
+    "deg": "Teeth and Ds specialist"
   },
   {
     "id": 7,
-    "title": "Teeth Whitening",
-    "des": "The benefits of a dental prophylaxis:Tartar removal: Tartar (calculus) and plaque buildup, both above and below the gum line, can cause serious periodontal problems if left untreated. Even using the best brushing and flossing homecare techniques, it can be impossible to remove debris, bacteria and deposits from gum pockets. The experienced eye of a dentist using specialized dental equipment is needed in order to spot and treat problems such as tartar and plaque buildup.Aesthetics: It’s hard to feel confident about a smile with yellowing, stained teeth. Prophylaxis can help rid th eteeth of unsightly stains and help brighten your smile.Fresher breath: Periodontal disease is often signified by persistent bad breath (halitosis). Bad breath is generally caused by a combination of rotting food particles below the gum line,",
+    "title": "Teeth filling",
+    "des": "First, all the patients had extreme dental pain.And when we say extreme, you have to believe that we mean it. These people probably experienced dental pain the likes of which we modern people, with our easy access to ice, pain medications, and dental care, simply cannot imagine. In all cases, the people are described as being completely taken over by the pain. They can’t sleep, walk around distractedly, and sometimes engage in crazy attempts to relieve the pain. At one point, a priest was “boring his head on the ground like an enraged animal,” according to a case report.Then, suddenly, the tooth explodes. Sometimes, the tooth is blown into pieces. Other times, it is simply split apart.But in every case, the explosion makes the tooth pain stop. Instant relief occurred at that moment in almost every case. The only difference is that one account says pain stopped just before the tooth exploded.",
     "img": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/07/ser_5-550x500.jpg",
-    "img2": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/09/services-details-2.jpg"
+    "img2": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/09/services-details-2.jpg",
+    "doctor_img": "https://img-c.udemycdn.com/user/75x75/6518514_2d17_2.jpg",
+    "doctor_name": "Jennifer Schroeder",
+    "review": 4.9,
+    "deg": "Teeth and cods specialist"
   },
   {
     "id": 8,
-    "title": "Certified Dentist",
-    "des": "The benefits of a dental prophylaxis:Tartar removal: Tartar (calculus) and plaque buildup, both above and below the gum line, can cause serious periodontal problems if left untreated. Even using the best brushing and flossing homecare techniques, it can be impossible to remove debris, bacteria and deposits from gum pockets. The experienced eye of a dentist using specialized dental equipment is needed in order to spot and treat problems such as tartar and plaque buildup.Aesthetics: It’s hard to feel confident about a smile with yellowing, stained teeth. Prophylaxis can help rid th eteeth of unsightly stains and help brighten your smile.Fresher breath: Periodontal disease is often signified by persistent bad breath (halitosis). Bad breath is generally caused by a combination of rotting food particles below the gum line,",
+    "title": "Teeth Scaling ",
+    "des": "Gum disease is caused by a sticky film of bacteria called plaque. Plaque is always forming on your teeth, but if they aren’t cleaned well, the bacteria in plaque can cause your gums to become inflamed. When this happens, your gums will pull away from your teeth and form spaces called pockets. Plaque then gets trapped in these pockets and cannot be removed with regular brushing. If untreated, gum disease could lead to bone and tooth loss.If gum disease is caught early and hasn’t damaged the structures below the gum line, a professional cleaning should do. If the pockets between your gums and teeth are too deep, however, scaling and root planing may be needed. A July 2015 study in the Journal of the American Dental Association finds that scaling and root planing is beneficial to patients with chronic periodontitis (gum disease that has advanced past gingivitis). Chronic periodontitis affects 47.2% of adults over 30 in the United States.",
     "img": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/07/services-details-550x500.jpg",
-    "img2": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/09/services-details-2.jpg"
+    "img2": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/09/services-details-2.jpg",
+    "doctor_img": "https://img-c.udemycdn.com/user/75x75/69233482_9963_4.jpg",
+    "doctor_name": "Kristina Bagrova",
+    "review": 4.7,
+    "deg": "Teeth and cells specialist"
   },
   {
     "id": 9,
-    "title": "New Technology",
-    "des": "The benefits of a dental prophylaxis:Tartar removal: Tartar (calculus) and plaque buildup, both above and below the gum line, can cause serious periodontal problems if left untreated. Even using the best brushing and flossing homecare techniques, it can be impossible to remove debris, bacteria and deposits from gum pockets. The experienced eye of a dentist using specialized dental equipment is needed in order to spot and treat problems such as tartar and plaque buildup.Aesthetics: It’s hard to feel confident about a smile with yellowing, stained teeth. Prophylaxis can help rid th eteeth of unsightly stains and help brighten your smile.Fresher breath: Periodontal disease is often signified by persistent bad breath (halitosis). Bad breath is generally caused by a combination of rotting food particles below the gum line,",
+    "title": "Teeth brushing",
+    "des": "To prevent cavities, you need to remove plaque. To do this, brush your teeth twice a day and floss at least once a day. Brushing also stimulates the gums, which helps to keep them healthy and prevent gum disease. Brushing and flossing are the most important things that you can do to keep your teeth and gums healthy.Use a toothpaste with fluoride to prevent cavities.Tartar is plaque that’s harder, and more damaging and difficult to remove. Using anti-tartar toothpastes and mouthwashes, and spending extra time brushing the teeth near the salivary glands (the inside of the lower front teeth and the outside of the upper back teeth) may slow the development of new tartar.If your teeth are sensitive to heat, cold, and pressure, you may want to try a special toothpaste for sensitive teeth. But talk to your dentist about your sensitivity to make sure it isn’t caused by any cavities or nerve problems.",
     "img": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/07/ser_3-550x500.jpg",
-    "img2": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/09/services-details-2.jpg"
+    "img2": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/09/services-details-2.jpg",
+    "doctor_img": "https://img-c.udemycdn.com/user/75x75/3890126_2b28_16.jpg",
+    "doctor_name": "Kain Ramsay",
+    "review": 4.3,
+    "deg": "Teeth and filling specialist"
   },
   {
     "id": 10,
     "title": "Quality Brackets",
-    "des": "The benefits of a dental prophylaxis:Tartar removal: Tartar (calculus) and plaque buildup, both above and below the gum line, can cause serious periodontal problems if left untreated. Even using the best brushing and flossing homecare techniques, it can be impossible to remove debris, bacteria and deposits from gum pockets. The experienced eye of a dentist using specialized dental equipment is needed in order to spot and treat problems such as tartar and plaque buildup.Aesthetics: It’s hard to feel confident about a smile with yellowing, stained teeth. Prophylaxis can help rid th eteeth of unsightly stains and help brighten your smile.Fresher breath: Periodontal disease is often signified by persistent bad breath (halitosis). Bad breath is generally caused by a combination of rotting food particles below the gum line,",
+    "des": "Orthodontic brackets are the brackets attached to teeth to which the bracing wires of dental braces are attached. Traditionally made of metals, alumina is increasingly commonly used in this role1 due to the aesthetics of using a white or translucent bracket. This is the only one of the five alumina applications in dentistry discussed in this section for which alumina is currently approaching market dominance. There is an obvious cosmetic benefit in using pearly white, translucent, or transparent orthodontic brackets as shown in Fig. 5.1, and alumina is much stronger than the alternative white/clear plastic brackets.",
     "img": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/09/dentist-office-550x500.jpg",
-    "img2": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/09/services-details-2.jpg"
+    "img2": "https://themes.hibootstrap.com/rola/wp-content/uploads/2021/09/services-details-2.jpg",
+    "doctor_img": "https://img-c.udemycdn.com/user/75x75/17111598_e1d0_3.jpg",
+    "doctor_name": "Elmira Strange, MPhil, Dip",
+    "review": 4.2,
+    "deg": "Teeth and filling specialist"
   }
 ]

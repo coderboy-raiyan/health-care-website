@@ -4,11 +4,11 @@ import { Card, Col } from "react-bootstrap";
 import { useHistory } from "react-router-dom";
 import "./SingalService.css";
 const SingalService = ({ service }) => {
-  console.log(service);
   const { id, title, des, img } = service;
   const history = useHistory();
 
   const handelDetails = () => {
+    window.scrollTo(0, 0);
     history.push(`/service/${id}`);
   };
 
@@ -26,7 +26,7 @@ const SingalService = ({ service }) => {
         <Card.Body>
           <Card.Title className="card-title">{title}</Card.Title>
           <Card.Text className="card-des text-capitalize">
-            {des.slice(74, 190)}...
+            {des.slice(0, 100)}...
           </Card.Text>
           <motion.button
             onClick={handelDetails}
