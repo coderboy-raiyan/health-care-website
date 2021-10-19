@@ -143,13 +143,16 @@ const ServiceDetails = () => {
 
             <Col xs={12} md={12} lg={12}>
               <div className="detail-btn ">
-                <motion.button
-                  whileTap={{ scale: 1.3 }}
-                  whileHover={{ scale: 1.2 }}
-                  className="appointment-button"
-                >
-                  Books your appointment Now
-                </motion.button>
+                <Link to="/bookappoinment">
+                  <motion.button
+                    whileTap={{ scale: 1.3 }}
+                    whileHover={{ scale: 1.2 }}
+                    className="appointment-button"
+                    onClick={() => window.scrollTo(0, 0)}
+                  >
+                    Books your appointment Now
+                  </motion.button>
+                </Link>
               </div>
             </Col>
           </Row>

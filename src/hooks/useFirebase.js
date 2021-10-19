@@ -9,6 +9,7 @@ import {
   updateProfile,
 } from "firebase/auth";
 import { useEffect, useState } from "react";
+import Swal from "sweetalert2";
 import initializeAuth from "./../components/Firebase/Firebase.init";
 
 const googleProvider = new GoogleAuthProvider();
@@ -17,15 +18,15 @@ initializeAuth();
 const useFirebase = () => {
   const auth = getAuth();
   const [userData, setUserData] = useState({});
+  const [signUperror, setsignUpError] = useState("");
   const [error, setError] = useState("");
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   //   google sign in
 
   const googleSignIn = () => {
     setIsLoading(true);
-    signInWithPopup(auth, googleProvider)
-      .then((result) => {})
+    return signInWithPopup(auth, googleProvider)
       .catch((error) => {
         const errorMessage = error.message;
         setError(errorMessage);
@@ -42,10 +43,12 @@ const useFirebase = () => {
     createUserWithEmailAndPassword(auth, email, password)
       .then((result) => {
         userName(name, photoLink);
+        setsignUpError("");
+        Swal.fire("Good job!", "You clicked the button!", "success");
       })
       .catch((error) => {
         const errorMessage = error.message;
-        setError(errorMessage);
+        setsignUpError(errorMessage);
       })
       .finally(() => {
         setIsLoading(false);
@@ -70,7 +73,9 @@ const useFirebase = () => {
   const signIn = (email, password) => {
     setIsLoading(true);
     signInWithEmailAndPassword(auth, email, password)
-      .then((result) => {})
+      .then((result) => {
+        setError("");
+      })
       .catch((error) => {
         const errorMessage = error.message;
         setError(errorMessage);
@@ -117,8 +122,10 @@ const useFirebase = () => {
     userData,
     setUserData,
     error,
+    signUperror,
     isLoading,
     setError,
+    setsignUpError,
     googleSignIn,
     logout,
     signup,

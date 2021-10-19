@@ -3,10 +3,14 @@ import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { NavHashLink } from "react-router-hash-link";
+import useAuth from "./../../hooks/useAuth";
+import "./Header.css";
 const Header = () => {
+  const { logout, userData } = useAuth();
+
   return (
     <Navbar bg="white" className="shadow-sm" expand="lg">
-      <Container>
+      <Container fluid className="px-4">
         <Link className="navbar-brand" to="/home">
           <img
             src="https://promo-theme.com/medina-wp/wp-content/uploads/2016/10/logo.png"
@@ -45,37 +49,53 @@ const Header = () => {
                 Book Appointment
               </Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link " to="/login">
-                <motion.button
-                  whileTap={{ scale: 1.1 }}
-                  whileHover={{ scale: 1.3 }}
-                  className="btn btn-light"
-                >
-                  Login
-                </motion.button>
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/signup">
-                <motion.button
-                  whileTap={{ scale: 1.1 }}
-                  whileHover={{ scale: 1.2 }}
-                  className="me-4"
-                >
-                  Sign up
-                </motion.button>
-              </Link>
-            </li>
-            <li className="nav-item">
-              <motion.button
-                whileTap={{ scale: 1.3 }}
-                whileHover={{ scale: 1.1 }}
-                className=" btn my-3"
-              >
-                Log out
-              </motion.button>
-            </li>
+            {!userData.email && (
+              <>
+                {" "}
+                <li className="nav-item">
+                  <Link className="nav-link" to="/signup">
+                    <motion.button
+                      whileTap={{ scale: 1.1 }}
+                      whileHover={{ scale: 1.2 }}
+                      className="me-4"
+                    >
+                      Sign up
+                    </motion.button>
+                  </Link>
+                </li>{" "}
+                <li className="nav-item">
+                  <Link className="nav-link " to="/login">
+                    <motion.button
+                      whileTap={{ scale: 1.1 }}
+                      whileHover={{ scale: 1.3 }}
+                      className="btn btn-light"
+                    >
+                      Login
+                    </motion.button>
+                  </Link>
+                </li>
+              </>
+            )}
+            {userData.email && (
+              <>
+                <li className="nav-item d-flex align-items-center">
+                  <img
+                    className="nav-link profile-img"
+                    src={userData.photoURL}
+                    alt=""
+                  />
+                  <span className="me-3">{userData.displayName}</span>
+                  <motion.button
+                    whileTap={{ scale: 1.3 }}
+                    whileHover={{ scale: 1.1 }}
+                    className=" btn btn-light my-3 "
+                    onClick={logout}
+                  >
+                    <i className="fas fa-sign-out-alt"></i>
+                  </motion.button>
+                </li>{" "}
+              </>
+            )}
           </Nav>
         </Navbar.Collapse>
       </Container>
