@@ -1,6 +1,6 @@
 # Medina
 
-It is a single page application made with ReactJS, Tailwind CSS etc...
+It is a single page application made with ReactJS, React-Bootstrap etc...
 
 # 👉 **Three bullet points**
 
