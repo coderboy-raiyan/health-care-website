@@ -25,7 +25,7 @@ const Login = () => {
   const handelGoogle = () => {
     googleSignIn().then((result) => {
       setError("");
-      Swal.fire("Good job!", "You clicked the button!", "success");
+      Swal.fire("Good job!", "Welcome to our family!", "success");
       history.push(redirect_uri);
     });
   };
@@ -42,7 +42,16 @@ const Login = () => {
       });
       return;
     }
-    signIn(userEamil, userPassword);
+    signIn(userEamil, userPassword)
+      .then((result) => {
+        setError("");
+        Swal.fire("Good job!", "Welcome to our family!", "success");
+        history.push(redirect_uri);
+      })
+      .catch((error) => {
+        const errorMessage = error.message;
+        setError(errorMessage);
+      });
     console.log(userPassword, userEamil);
     setError("");
   };

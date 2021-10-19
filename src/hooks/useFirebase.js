@@ -44,7 +44,7 @@ const useFirebase = () => {
       .then((result) => {
         userName(name, photoLink);
         setsignUpError("");
-        Swal.fire("Good job!", "You clicked the button!", "success");
+        Swal.fire("Good job!", "Welcome to our family!", "success");
       })
       .catch((error) => {
         const errorMessage = error.message;
@@ -72,17 +72,9 @@ const useFirebase = () => {
 
   const signIn = (email, password) => {
     setIsLoading(true);
-    signInWithEmailAndPassword(auth, email, password)
-      .then((result) => {
-        setError("");
-      })
-      .catch((error) => {
-        const errorMessage = error.message;
-        setError(errorMessage);
-      })
-      .finally(() => {
-        setIsLoading(false);
-      });
+    return signInWithEmailAndPassword(auth, email, password).finally(() => {
+      setIsLoading(false);
+    });
   };
 
   // User logged in
