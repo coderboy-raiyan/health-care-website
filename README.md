@@ -1,6 +1,14 @@
-# Red Onion Restaurant Web App
+# Medina
 
 It is a single page application made with ReactJS, Tailwind CSS etc...
+
+# 👉 **Three bullet points**
+
+### ✅ This a website for your dental care
+
+### ✅ You can come here and have a great treatment from our excellent doctors
+
+### ✅ The doctors are very cooperative and friendly. Also we have a discussion board where we discuss how to treat our patient more efficiently.
 
 ## Live Demo of this website :
 

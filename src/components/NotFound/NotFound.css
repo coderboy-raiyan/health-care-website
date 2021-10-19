@@ -1,4 +1,11 @@
 .not-img {
-  width: 38%;
+  width: 500px;
   margin: auto;
+}
+.back-btn button {
+  padding: 15px 56px;
+  margin-right: 24px;
+}
+.back-btn .home-back {
+  background: rgb(85, 85, 245);
 }

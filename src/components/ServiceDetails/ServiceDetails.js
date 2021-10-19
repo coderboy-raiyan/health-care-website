@@ -50,6 +50,12 @@ const ServiceDetails = () => {
           <h5 className="text-danger">
             <Alert variant="danger">Your Service doesn't exists sorry</Alert>
           </h5>
+          <button
+            onClick={() => window.history.back()}
+            className="btn btn-warning py-3 px-5 fw-bold"
+          >
+            Go back
+          </button>
         </div>
       </Container>
     );

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import React from "react";
+import React, { useState } from "react";
 import {
   Col,
   Container,
@@ -9,15 +9,27 @@ import {
   Row,
 } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import useAuth from "./../../hooks/useAuth";
 
 const ForgetPAssword = () => {
+  const { updatePassword } = useAuth();
+  const [updateEmail, setUpdateEmail] = useState();
+  const handelUpdate = (e) => {
+    e.preventDefault();
+    updatePassword(updateEmail);
+  };
+
+  const handelEmail = (e) => {
+    setUpdateEmail(e.target.value);
+  };
+
   return (
     <section className="main-login">
       <Container>
         <Row className="align-items-center justify-content-center">
           <Col xs={12} md={6} lg={6}>
             <div className="main-form shadow">
-              <Form>
+              <Form onSubmit={handelUpdate}>
                 <Row>
                   <div className="form-login-inner">
                     <Col xs={12} md={12} lg={12}>
@@ -40,6 +52,7 @@ const ForgetPAssword = () => {
                           required
                           type="email"
                           className="main-inputs"
+                          onBlur={handelEmail}
                         />
                       </InputGroup>
                     </Col>

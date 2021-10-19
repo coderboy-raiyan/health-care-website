@@ -3,6 +3,7 @@ import {
   getAuth,
   GoogleAuthProvider,
   onAuthStateChanged,
+  sendPasswordResetEmail,
   signInWithEmailAndPassword,
   signInWithPopup,
   signOut,
@@ -68,6 +69,20 @@ const useFirebase = () => {
       });
   };
 
+  // update password
+  const updatePassword = (email) => {
+    sendPasswordResetEmail(auth, email)
+      .then(() => {
+        setError("");
+        Swal.fire("Good job!", "Please check your email", "success");
+      })
+      .catch((error) => {
+        const errorMessage = error.message;
+        setError(errorMessage);
+        // ..
+      });
+  };
+
   //   Eamil password sign in
 
   const signIn = (email, password) => {
@@ -83,7 +98,6 @@ const useFirebase = () => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       if (user) {
         setUserData(user);
-        console.log("logged in", user);
       } else {
         setUserData({});
       }
@@ -122,6 +136,7 @@ const useFirebase = () => {
     logout,
     signup,
     signIn,
+    updatePassword,
   };
 };
 export default useFirebase;

@@ -7,7 +7,7 @@ import "./Services.css";
 const Services = () => {
   // All services starts
   const { services } = useAllService();
-  console.log(services);
+
   return (
     <section className="main-services">
       <div className="banner">
