@@ -90,8 +90,10 @@ const Header = () => {
                     whileHover={{ scale: 1.1 }}
                     className=" btn btn-light my-3 "
                     onClick={logout}
+                    title="Logout"
                   >
-                    <i className="fas fa-sign-out-alt"></i>
+                    <small>Logout</small>{" "}
+                    <i className="fas fa-sign-out-alt ms-2"></i>
                   </motion.button>
                 </li>{" "}
               </>
