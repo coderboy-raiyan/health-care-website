@@ -68,3 +68,11 @@
   padding: 18px;
   margin-bottom: 16px;
 }
+
+/* Responsive starts here*/
+
+@media only screen and (max-width: 768px) {
+  .appointment-titles .contact-title {
+    width: 100%;
+  }
+}

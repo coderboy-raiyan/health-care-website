@@ -20,3 +20,20 @@
   width: 60%;
   padding: 15px 30px;
 }
+
+/* responsive starts */
+
+@media only screen and (max-width: 768px) {
+  .home-services-titles .default-title {
+    width: 100%;
+  }
+  .home-services-titles h1 {
+    font-size: 30px;
+    width: 100%;
+    line-height: 50px;
+  }
+  .home-services-btn {
+    width: 100%;
+    margin-top: 30px;
+  }
+}

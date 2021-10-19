@@ -18,7 +18,7 @@ const Header = () => {
             width="130px"
           />
         </Link>
-        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Toggle className="bg-light" aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className="ms-auto my-2 my-lg-0 align-items-center"

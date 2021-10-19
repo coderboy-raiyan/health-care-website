@@ -50,3 +50,27 @@
   padding: 15px 30px;
   background: #002345;
 }
+
+/* Responsive */
+
+@media only screen and (max-width: 768px) {
+  .left-side-hero {
+    width: 100%;
+  }
+  .default-title {
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .left-side-hero h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .btn-grp {
+    margin-top: 30px;
+  }
+  .btn-grp button {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}

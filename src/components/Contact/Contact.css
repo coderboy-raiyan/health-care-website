@@ -83,3 +83,17 @@ input::placeholder {
   font-size: 15px;
   color: #333;
 }
+/* Responsive starts here */
+
+@media only screen and (max-width: 768px) {
+  .main-contact-form .contact-title,
+  .contact-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .contact-des h1 {
+    width: 100%;
+    font-size: 30px;
+  }
+}

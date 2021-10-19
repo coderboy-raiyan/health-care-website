@@ -59,7 +59,7 @@ const BookAppoinment = () => {
       {/* Appointment title and des */}
       <div className="appointment-titles py-5">
         <Container>
-          <Row>
+          <Row className="g-4">
             <Col xs={12} md={12} lg={12}>
               <div className="contact-des">
                 <div className="contact-title">
