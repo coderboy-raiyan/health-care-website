@@ -25,6 +25,7 @@ const Login = () => {
   const handelGoogle = () => {
     googleSignIn().then((result) => {
       setError("");
+      Swal.fire("Good job!", "You clicked the button!", "success");
       history.push(redirect_uri);
     });
   };

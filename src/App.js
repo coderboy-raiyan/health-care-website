@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
 import BookAppoinment from "./components/BookAppoinment/BookAppoinment";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 import ForgetPassword from "./components/ForgetPassword/ForgetPassword";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home/Home";
@@ -54,6 +55,7 @@ const App = () => {
               <NotFound></NotFound>
             </Route>
           </Switch>
+          <Footer></Footer>
         </BrowserRouter>
       </ServicesProvider>
     </AuthProvider>
