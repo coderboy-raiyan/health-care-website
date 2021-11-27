@@ -4,11 +4,14 @@ It is a single page application made with ReactJS, React-Bootstrap etc...
 
 # 👉 **Three bullet points**
 
-### ✅ This a website for your dental care
+### ✅ Here is a website that helps you with your dental care.
 
-### ✅ You can come here and have a great treatment from our excellent doctors
+### ✅ User can find here excellent doctors
 
-### ✅ The doctors are very cooperative and friendly. Also we have a discussion board where we discuss how to treat our patient more efficiently.
+### ✅ And It’s a very minimal website that user can easily access It’s all features
+
+### ✅ Also we provide user authentication using firebase and it’s fully responsive for all
+devices.
 
 ## Live Demo of this website :
 
